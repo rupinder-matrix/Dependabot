@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "YourPackageName",
+    name: "IQKeyboardManagerSwift",
     platforms: [
         .iOS(.v13)
     ],
