@@ -13,14 +13,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // Adding IQKeyboardManager dependency
         .package(url: "https://github.com/hackiftekhar/IQKeyboardManager.git", .upToNextMajor(from: "6.5.16"))
     ],
     targets: [
         .target(
             name: "IQKeyboardManagerSwift",
             dependencies: [
-                "IQKeyboardManagerSwift"  // Correct dependency name
+                "IQKeyboardManager"  // Correct dependency name
             ],
             path: "Sources"
         )
