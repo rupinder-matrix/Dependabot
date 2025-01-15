@@ -9,3 +9,11 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+  - package-ecosystem: "github-actions"
+    directory: "/" # Location of your GitHub Actions workflows
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "cocoapods"
+    directory: "/" # Location of your Podfile
+    schedule:
+      interval: "weekly" # Check for updates weekly
