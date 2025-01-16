@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "IQKeyboardManagerSwift",
+    name: "Dependabot",
     platforms: [
         .iOS(.v13)
     ],
@@ -19,10 +19,11 @@ let package = Package(
         .target(
             name: "IQKeyboardManagerSwift",
             dependencies: [
-                "IQKeyboardManager"  // Correct dependency name
+                .product(name: "IQKeyboardManager", package: "IQKeyboardManager")
             ],
             path: "Sources"
         )
     ]
 )
+
 
