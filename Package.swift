@@ -20,8 +20,7 @@ let package = Package(
             name: "IQKeyboardManagerSwift",
             dependencies: [
                 .product(name: "IQKeyboardManager", package: "IQKeyboardManager")
-            ],
-            path: "Sources"
+            ]
         )
     ]
 )
