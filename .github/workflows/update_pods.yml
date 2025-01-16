@@ -6,6 +6,7 @@ name: Update CocoaPods Dependencies
 on:
   schedule:
     - cron: '0 0 * * *'  # Run daily at midnight
+  workflow_dispatch: 
 
 jobs:
   update_pods:
